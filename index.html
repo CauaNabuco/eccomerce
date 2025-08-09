@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>TechStore</title>
+  </head>
+  <body>
+    <!-- CABEÇALHO -->
+    <header>
+      <div class="logo">
+        <a href="#">
+       <i class="fa-solid fa-bolt"></i>
+      </a>
+        <h1>TechStore</h1>
+      </div>
+      <div class="search-container">
+        <input class="search-input" type="text" placeholder="Buscar produtos..." />
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+    </header>
+     <!-- MENU -->
+    <section class="categories-container">
+      <nav class="categories-menu">
+        <button class="category-btn active" data-category="all"><i class="fa-solid fa-border-all"></i>Todos</button>
+        <button class="category-btn"data-category="smartphones"><i class="fa-solid fa-mobile-screen"></i>SmartPhones</button>
+        <button class="category-btn"data-category="laptops"><i class="fa-solid fa-laptop"></i>Notebooks</button>
+        <button class="category-btn"data-category="headphones"><i class="fa-solid fa-headphones"></i>Fones</button>
+        <button class="category-btn"data-category="accessories"><i class="fa-regular fa-keyboard"></i>Acessórios</button>
+        <button class="category-btn"data-category="smartwatch"><i class="fa-solid fa-clock"></i>SmartWhatches</button>
+      </nav>
+    </section>
+    <main>
+     <!-- BANNER INICIAL -->
+        <section class="hero-section">
+            <h2>Black Friday Antecipada</h2>
+            <p>Até 50% de desconto em produtos selecionados</p>
+        </section>
+     <!-- PRODUTOS -->
+      <section class="products">
+        <div class="products-container">
+
+        </div>
+      </section>
+    </main>
+     <!-- RODAPÉ -->
+    <footer>
+        <p>2026 - TechStore. Todos os Direitos Reservados</p>
+    </footer>
+  </body>
+  <script src="scripts.js"></script>
+</html>
